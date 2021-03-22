@@ -15,7 +15,7 @@ class AddMemberPage:
         self.driver = driver
 
     def add_member(self, name, accid, phone):
-        sleep(3)
+        self.driver.implicitly_wait(20)
         # input name
         self.driver.find_element(By.ID, "username").send_keys(name)
         # input account
@@ -32,6 +32,7 @@ class AddMemberPage:
         # find_elements方法返回的是元素列表 [element1,elemnt2,.....]
         elements = self.driver.find_elements(By.CSS_SELECTOR, ".member_colRight_memberTable_td:nth-child(2)")
         titles = [element.get_attribute("title") for element in elements]
+        return titles
 
 
         # # 可用列表推导式达到同样的效果
