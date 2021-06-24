@@ -7,8 +7,8 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
-from web.podemo1.page.add_member_page import AddMemberPage
-from web.podemo1.page.base_page import BasePage
+from test_web.podemo1.page.add_member_page import AddMemberPage
+from test_web.podemo1.page.base_page import BasePage
 
 
 class IndexPage(BasePage):

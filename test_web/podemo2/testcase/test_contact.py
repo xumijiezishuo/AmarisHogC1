@@ -3,7 +3,7 @@
 # @Time   :2020/12/21 9:55 下午
 # @Author :Amaris
 # @File   :test_contact.py
-from web.podemo1.page.index_page import IndexPage
+from test_web.podemo1.page.index_page import IndexPage
 
 
 class TestContact:

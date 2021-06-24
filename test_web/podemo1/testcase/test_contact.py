@@ -4,8 +4,8 @@
 # @Author :Amaris
 # @File   :test_contact.py
 
-from web.func import username, memberAdd_acctid, memberAdd_phone
-from web.podemo1.page.index_page import IndexPage
+from test_web.func import username, memberAdd_acctid, memberAdd_phone
+from test_web.podemo1.page.index_page import IndexPage
 
 
 class TestContact:
@@ -24,6 +24,7 @@ class TestContact:
         addmemberpage = self.index.goto_add_member()
         addmemberpage.add_member(name, acctid, phone)
         result = addmemberpage.get_member()
+
 
         assert "覃超兰" in result
 

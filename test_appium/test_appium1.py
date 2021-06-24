@@ -13,7 +13,10 @@ desired_caps['platformName'] = 'Andriod'
 desired_caps['platformVersion'] = '6.0'
 desired_caps['deviceName'] = 'emulator-5554'
 desired_caps['appPackage'] = 'com.andriod.settings'
-desired_caps['appActivity'] = 'com.andriod.settings.Setting'
+desired_caps['appActivity'] = '.com.andriod.settings.Setting'
+
 driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
+driver.implicitly_wait(10)
+
 driver.quit()
 

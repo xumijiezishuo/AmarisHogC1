@@ -126,6 +126,7 @@ class TestCalc:
 
 
 
+
 '''
 # 优化二：初始化考虑，使用到测试类
 class TestCalc:
@@ -168,4 +169,3 @@ def test_mul(a, b, c):
     assert calc.mul(a, b) == c
     
 '''
-

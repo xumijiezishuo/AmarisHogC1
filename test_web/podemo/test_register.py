@@ -3,7 +3,7 @@
 # @Time   :2020/12/21 6:25 下午
 # @Author :Amaris
 # @File   :test_register.py
-from web.podemo.main_page import MainPage
+from test_web.podemo.main_page import MainPage
 
 
 class TestRegister:

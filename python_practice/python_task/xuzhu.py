@@ -13,3 +13,7 @@ from python_practice.python_task.tonglao import TongLao
 class XuZhu(TongLao):
     def read(self):
         print("罪过罪过")
+
+peo =XuZhu(100,200)
+peo.read()
+peo.fight_zms(200,100)

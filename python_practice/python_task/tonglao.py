@@ -50,3 +50,4 @@ class TongLao():
 tonglao = TongLao(100, 10)
 tonglao.fight_zms(200, 10)
 
+

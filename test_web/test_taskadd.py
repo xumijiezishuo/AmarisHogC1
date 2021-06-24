@@ -12,7 +12,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 
-from web.func import username, memberAdd_acctid, memberAdd_phone
+from test_web.func import username, memberAdd_acctid, memberAdd_phone
 
 '''
 作业:使用 cookie 登录企业微信，完成添加联系人，加上断言验证

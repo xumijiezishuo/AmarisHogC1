@@ -6,7 +6,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
 
-from web.podemo.register_page import RegisterPage
+from test_web.podemo.register_page import RegisterPage
 
 
 class LoginPage:
